@@ -1306,6 +1306,7 @@ span {
     font-size: 16px;
   }
 }
+
 .link-button {
   position: fixed;
   z-index: 999;
@@ -1390,7 +1391,7 @@ span {
 
 .content-full {
   padding: 0 20px;
-  width: 1500px;
+  width: 450px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1922,10 +1923,6 @@ span {
 }
 .header-section.header-menu .single-item {
   position: relative;
-}
-
-.content-full {
-  width: 450px;
 }
 
 .header-section.header-menu .single-item.active .main-area {
@@ -2514,6 +2511,10 @@ body {
   }
   .service_heading {
     width: 100%;
+  }
+
+  .content-full {
+    width: 450px;
   }
 }
 @media (max-width: 992px) {
