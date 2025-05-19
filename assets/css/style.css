@@ -1389,6 +1389,7 @@ span {
 }
 
 .content-full {
+  padding: 0 20px;
   width: 1500px;
   position: absolute;
   top: 50%;
@@ -1922,6 +1923,11 @@ span {
 .header-section.header-menu .single-item {
   position: relative;
 }
+
+.content-full {
+  width: 450px;
+}
+
 .header-section.header-menu .single-item.active .main-area {
   opacity: 1;
   visibility: visible;
@@ -2471,7 +2477,7 @@ body {
 }
 @media (max-width: 576px) {
   .hero-bg {
-    height: 500px;
+    height: 700px;
   }
   .process_heading {
     padding: 0 8px;
