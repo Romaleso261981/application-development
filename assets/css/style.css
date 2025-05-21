@@ -482,6 +482,11 @@ h6 > a span,
   font-weight: inherit;
 }
 
+.heder-nav-custom {
+  display: flex;
+  justify-content: space-between;
+}
+
 .roboto {
   font-family: var(--roboto-font);
 }
