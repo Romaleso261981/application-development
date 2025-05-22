@@ -575,6 +575,15 @@ select {
   max-width: unset;
 }
 
+.about-custom-list {
+  text-align: justify;
+}
+
+.portfolio-custom-list {
+  display: flex;
+  justify-content: space-around;
+}
+
 @media (min-width: 1400px) {
   .max-xxl-un {
     max-width: unset;
