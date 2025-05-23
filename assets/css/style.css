@@ -1577,6 +1577,12 @@ span {
   z-index: 999;
   background-color: transparent;
 }
+
+.footer-custom-list {
+  display: flex;
+  justify-content: space-around;
+}
+
 @media (max-width: 991px) {
   .header-section {
     position: fixed;
@@ -2035,7 +2041,7 @@ span {
       rgba(255, 255, 255, 0.1),
       rgba(255, 255, 255, 0.2)
     ),
-    url("../images/new/heroBG.webp");
+    url("../images/new/hero/bg2.png");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
