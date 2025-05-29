@@ -2037,11 +2037,7 @@ span {
 .hero-bg {
   width: 100%;
   height: 880px;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.2)
-    ),
-    url("../images/new/hero/1.jpg");
+  background: url("../images/new/hero/3.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
