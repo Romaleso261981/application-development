@@ -1,0 +1,136 @@
+body {
+  background: #f5f5f7;
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-label {
+  color: #bdbdbd;
+  font-size: 16px;
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  letter-spacing: 0.5px;
+}
+
+.container {
+  background: #fff;
+  max-width: 700px;
+  margin: 32px auto 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.06);
+  padding: 40px 40px 32px 40px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #f8b6c2;
+  border: 8px solid #f8b6c2;
+}
+
+.profile-info h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  color: #23223a;
+  line-height: 1.1;
+}
+
+.profile-description {
+  color: #444;
+  font-size: 1rem;
+  margin: 0;
+  max-width: 420px;
+}
+
+.contacts-card {
+  background: #7c6ae6;
+  border-radius: 8px;
+  padding: 24px 32px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.contacts-card h2 {
+  margin: 0 0 12px 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.contacts-card p {
+  margin: 4px 0;
+  font-size: 1rem;
+}
+
+.contacts-card strong {
+  font-weight: 600;
+}
+
+.projects-section h2,
+.skills-section h2 {
+  color: #7c6ae6;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.projects-section {
+  margin-bottom: 28px;
+}
+
+.projects-section ol {
+  margin: 0 0 0 18px;
+  padding: 0;
+}
+
+.projects-section li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.projects-section a {
+  color: #4b5ae6;
+  text-decoration: underline;
+}
+
+.skills-section {
+  margin-bottom: 24px;
+}
+
+.skills-section ul {
+  margin: 0 0 0 18px;
+  padding: 0;
+  list-style: disc;
+}
+
+.skills-section li {
+  font-size: 1rem;
+  margin-bottom: 4px;
+  color: #23223a;
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 20px 8px 24px 8px;
+  }
+  .profile-header {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+}

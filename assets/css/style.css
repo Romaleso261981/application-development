@@ -164,6 +164,20 @@ h6 > a {
   line-height: 130%;
 }
 
+.fs-hero-text {
+  width: 60% !important;
+  text-align: start;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.fs-hero-title {
+  width: 80% !important;
+  text-align: start;
+  font-size: 24px;
+  line-height: 130%;
+}
+
 .fs-eleven {
   font-size: 16px;
   line-height: 120%;
@@ -370,6 +384,14 @@ li {
   }
   .pb-60 {
     padding-bottom: 40px;
+  }
+  .fs-hero-text {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .fs-hero-title {
+    width: 100% !important;
+    text-align: center !important;
   }
 }
 @media (max-width: 480px) {
@@ -1405,11 +1427,10 @@ span {
 
 .content-full {
   padding: 0 20px;
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 0;
-  left: -10px;
-  transform: translate(-20%, 5%);
+  left: 0;
   .techzoo {
     color: rgba(var(--p1), 1);
   }
@@ -2532,6 +2553,7 @@ body {
 
   .content-full {
     width: 450px;
+    transform: translate(1%, 17%);
   }
 }
 @media (max-width: 992px) {
@@ -2539,7 +2561,7 @@ body {
     height: 750px !important;
   }
   .content-full {
+    position: relative;
     width: 100%;
-    transform: translate(0, 5%);
   }
 } /*# sourceMappingURL=style.css.map */
