@@ -2566,8 +2566,10 @@ body {
   .particial-bg {
     height: 750px !important;
   }
-  .content-full {
+  .scroll-container {
     overflow: scroll !important;
+  }
+  .content-full {
     padding: 20px !important;
     position: relative;
     width: 100%;
