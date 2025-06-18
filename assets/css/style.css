@@ -166,7 +166,7 @@ h6 > a {
 
 .fs-hero-text {
   width: 60% !important;
-  text-align: start;
+  text-align: start !important;
   font-size: 18px;
   line-height: 130%;
 }
@@ -402,6 +402,12 @@ li {
   .display-one {
     font-size: 38px;
     line-height: 120%;
+  }
+  .fs-hero-text {
+    font-size: 24px;
+  }
+  .fs-hero-title {
+    font-size: 30px;
   }
 }
 html {
@@ -2561,6 +2567,7 @@ body {
     height: 750px !important;
   }
   .content-full {
+    overflow: scroll !important;
     padding: 20px !important;
     position: relative;
     width: 100%;
